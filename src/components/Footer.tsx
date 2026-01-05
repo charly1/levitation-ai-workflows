@@ -1,4 +1,5 @@
 import { Linkedin, Twitter, Mail } from "lucide-react";
+import logo from "@/assets/logo.png";
 
 const Footer = () => {
   return (
@@ -8,9 +9,7 @@ const Footer = () => {
           {/* Brand */}
           <div className="md:col-span-2">
             <div className="flex items-center gap-2 mb-4">
-              <div className="w-8 h-8 rounded-lg bg-primary flex items-center justify-center">
-                <span className="text-primary-foreground font-bold text-lg">L</span>
-              </div>
+              <img src={logo} alt="Leviation.ai" className="h-8 w-auto" />
               <span className="text-xl font-bold text-foreground">Leviation.ai</span>
             </div>
             <p className="text-muted-foreground max-w-sm mb-6">
