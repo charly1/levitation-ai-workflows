@@ -35,7 +35,7 @@ const benefits = [
 
 const Benefits = () => {
   return (
-    <section id="benefits" className="py-24 bg-card">
+    <section id="benefits" className="min-h-screen py-24 bg-card flex items-center">
       <div className="container mx-auto px-4">
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           {/* Left Content */}

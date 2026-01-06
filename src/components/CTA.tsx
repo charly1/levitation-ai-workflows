@@ -3,7 +3,7 @@ import { ArrowRight, Calendar } from "lucide-react";
 
 const CTA = () => {
   return (
-    <section id="contact" className="py-24 bg-background">
+    <section id="contact" className="min-h-screen py-24 bg-background flex items-center">
       <div className="container mx-auto px-4">
         <div className="relative overflow-hidden rounded-3xl bg-gradient-to-br from-primary/90 to-primary p-12 md:p-16">
           {/* Background Decoration */}
