@@ -42,8 +42,8 @@ const services = [
 ];
 
 const Services = () => {
-  const { ref: headerRef, isVisible: headerVisible } = useScrollAnimation();
-  const { ref: gridRef, isVisible: gridVisible } = useScrollAnimation({ threshold: 0.05 });
+  const { ref: headerRef, isVisible: headerVisible } = useScrollAnimation({ triggerOnce: false });
+  const { ref: gridRef, isVisible: gridVisible } = useScrollAnimation({ threshold: 0.05, triggerOnce: false });
 
   return (
     <section id="services" className="min-h-screen py-24 bg-card flex items-center">
