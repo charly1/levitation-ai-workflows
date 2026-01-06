@@ -1,4 +1,5 @@
 import { Clock, DollarSign, TrendingUp, Shield, Users, Repeat } from "lucide-react";
+import { useScrollAnimation } from "@/hooks/use-scroll-animation";
 
 const benefits = [
   {
@@ -34,11 +35,21 @@ const benefits = [
 ];
 
 const Benefits = () => {
+  const { ref: headerRef, isVisible: headerVisible } = useScrollAnimation();
+  const { ref: gridRef, isVisible: gridVisible } = useScrollAnimation({ threshold: 0.05 });
+
   return (
     <section id="benefits" className="min-h-screen py-24 bg-card flex items-center">
       <div className="container mx-auto px-4">
         {/* Header */}
-        <div className="text-center max-w-3xl mx-auto mb-16">
+        <div
+          ref={headerRef}
+          className={`text-center max-w-3xl mx-auto mb-16 transition-all duration-700 ${
+            headerVisible
+              ? "opacity-100 translate-y-0"
+              : "opacity-0 translate-y-8"
+          }`}
+        >
           <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-6">
             Why Companies Choose{" "}
             <span className="text-primary">Leviation.ai</span>
@@ -50,11 +61,21 @@ const Benefits = () => {
         </div>
 
         {/* Benefits Grid */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-5xl mx-auto">
+        <div
+          ref={gridRef}
+          className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-5xl mx-auto"
+        >
           {benefits.map((benefit, index) => (
             <div
               key={index}
-              className="flex items-start gap-4 p-6 rounded-lg bg-background border border-border hover:border-primary/50 transition-colors duration-200"
+              className={`flex items-start gap-4 p-6 rounded-lg bg-background border border-border hover:border-primary/50 transition-all duration-500 ${
+                gridVisible
+                  ? "opacity-100 translate-y-0"
+                  : "opacity-0 translate-y-12"
+              }`}
+              style={{
+                transitionDelay: gridVisible ? `${index * 100}ms` : "0ms",
+              }}
             >
               <div className="w-10 h-10 rounded-lg bg-accent flex items-center justify-center flex-shrink-0">
                 <benefit.icon className="w-5 h-5 text-accent-foreground" />
