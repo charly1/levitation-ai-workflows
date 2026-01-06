@@ -1,4 +1,5 @@
 import { Search, PenTool, Rocket, HeadphonesIcon } from "lucide-react";
+import { useScrollAnimation } from "@/hooks/use-scroll-animation";
 
 const steps = [
   {
@@ -32,11 +33,21 @@ const steps = [
 ];
 
 const HowItWorks = () => {
+  const { ref: headerRef, isVisible: headerVisible } = useScrollAnimation();
+  const { ref: stepsRef, isVisible: stepsVisible } = useScrollAnimation({ threshold: 0.05 });
+
   return (
     <section id="how-it-works" className="min-h-screen py-24 bg-background flex items-center">
       <div className="container mx-auto px-4">
         {/* Section Header */}
-        <div className="text-center mb-16">
+        <div
+          ref={headerRef}
+          className={`text-center mb-16 transition-all duration-700 ${
+            headerVisible
+              ? "opacity-100 translate-y-0"
+              : "opacity-0 translate-y-8"
+          }`}
+        >
           <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
             How It Works
           </h2>
@@ -46,15 +57,26 @@ const HowItWorks = () => {
         </div>
 
         {/* Steps */}
-        <div className="relative">
+        <div ref={stepsRef} className="relative">
           {/* Connection Line */}
-          <div className="hidden lg:block absolute top-1/2 left-0 right-0 h-0.5 bg-gradient-to-r from-primary/20 via-primary to-primary/20 transform -translate-y-1/2" />
+          <div
+            className={`hidden lg:block absolute top-1/2 left-0 right-0 h-0.5 bg-gradient-to-r from-primary/20 via-primary to-primary/20 transform -translate-y-1/2 transition-all duration-1000 ${
+              stepsVisible ? "opacity-100 scale-x-100" : "opacity-0 scale-x-0"
+            }`}
+          />
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             {steps.map((step, index) => (
               <div
                 key={index}
-                className="relative bg-card rounded-xl p-8 border border-border hover:border-primary/30 transition-all duration-300 hover:shadow-lg group"
+                className={`relative bg-card rounded-xl p-8 border border-border hover:border-primary/30 transition-all duration-500 hover:shadow-lg group ${
+                  stepsVisible
+                    ? "opacity-100 translate-y-0"
+                    : "opacity-0 translate-y-12"
+                }`}
+                style={{
+                  transitionDelay: stepsVisible ? `${index * 150}ms` : "0ms",
+                }}
               >
                 {/* Step Number */}
                 <div className="absolute -top-4 left-8 px-3 py-1 bg-primary text-primary-foreground text-sm font-bold rounded-md">
