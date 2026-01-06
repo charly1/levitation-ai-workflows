@@ -33,8 +33,8 @@ const steps = [
 ];
 
 const HowItWorks = () => {
-  const { ref: headerRef, isVisible: headerVisible } = useScrollAnimation({ triggerOnce: false });
-  const { ref: stepsRef, isVisible: stepsVisible } = useScrollAnimation({ threshold: 0.05, triggerOnce: false });
+  const { ref: headerRef, isVisible: headerVisible } = useScrollAnimation();
+  const { ref: stepsRef, isVisible: stepsVisible } = useScrollAnimation({ threshold: 0.05 });
 
   return (
     <section id="how-it-works" className="min-h-screen py-24 bg-background flex items-center">

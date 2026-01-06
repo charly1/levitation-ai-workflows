@@ -3,7 +3,7 @@ import { ArrowRight, Calendar } from "lucide-react";
 import { useScrollAnimation } from "@/hooks/use-scroll-animation";
 
 const CTA = () => {
-  const { ref, isVisible } = useScrollAnimation({ threshold: 0.2, triggerOnce: false });
+  const { ref, isVisible } = useScrollAnimation({ threshold: 0.2 });
 
   return (
     <section id="contact" className="min-h-screen py-24 bg-background flex items-center">
