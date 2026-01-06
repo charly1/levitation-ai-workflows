@@ -42,7 +42,7 @@ const services = [
 
 const Services = () => {
   return (
-    <section id="services" className="py-24 bg-card">
+    <section id="services" className="min-h-screen py-24 bg-card flex items-center">
       <div className="container mx-auto px-4">
         {/* Section Header */}
         <div className="text-center mb-16">
