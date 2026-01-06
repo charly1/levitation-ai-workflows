@@ -47,16 +47,6 @@ const Hero = () => {
             </Button>
           </div>
 
-          {/* Trust Indicators */}
-          <div className="mt-16 flex flex-col items-center gap-4">
-            <p className="text-sm text-muted-foreground">Trusted by innovative companies</p>
-            <div className="flex items-center gap-8 opacity-60">
-              <div className="text-foreground font-semibold">TechCorp</div>
-              <div className="text-foreground font-semibold">InnovateLab</div>
-              <div className="text-foreground font-semibold">DataFlow</div>
-              <div className="text-foreground font-semibold hidden sm:block">AutoScale</div>
-            </div>
-          </div>
         </div>
       </div>
     </section>
