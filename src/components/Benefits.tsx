@@ -3,7 +3,7 @@ import { Clock, DollarSign, TrendingUp, Shield, Users, Repeat } from "lucide-rea
 const benefits = [
   {
     icon: Clock,
-    title: "Save 20+ Hours Weekly",
+    title: "Save Valuable Time",
     description: "Automate repetitive tasks and free up your team for high-value work.",
   },
   {
@@ -23,8 +23,8 @@ const benefits = [
   },
   {
     icon: Users,
-    title: "Improve Team Morale",
-    description: "Let your team focus on creative work instead of mundane tasks.",
+    title: "Focus on What Matters",
+    description: "Empower your workforce to concentrate on strategic, high-impact work.",
   },
   {
     icon: Repeat,
