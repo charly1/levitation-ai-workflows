@@ -38,8 +38,8 @@ const Navbar = () => {
 
           {/* CTA Button */}
           <div className="hidden md:block">
-            <Button variant="default" size="lg">
-              Get Started
+            <Button variant="default" size="lg" asChild>
+              <a href="#contact">Get Started</a>
             </Button>
           </div>
 
@@ -71,8 +71,8 @@ const Navbar = () => {
                   {link.name}
                 </a>
               ))}
-              <Button variant="default" size="lg" className="mt-2">
-                Get Started
+              <Button variant="default" size="lg" className="mt-2" asChild>
+                <a href="#contact" onClick={() => setIsOpen(false)}>Get Started</a>
               </Button>
             </div>
           </div>
