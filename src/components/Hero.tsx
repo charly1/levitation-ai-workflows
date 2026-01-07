@@ -17,9 +17,9 @@ const Hero = () => {
       <div className="container mx-auto px-4 relative z-10 pt-20">
         <div className="max-w-4xl mx-auto text-center">
           {/* Badge */}
-          <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-accent border border-primary/20 mb-8 animate-fade-in">
-            <Sparkles className="w-4 h-4 text-accent-foreground" />
-            <span className="text-sm font-medium text-accent-foreground">
+          <div className="inline-flex items-center gap-2 px-5 py-2.5 rounded-full bg-primary/10 border border-primary/30 mb-8 animate-fade-in shadow-[0_0_20px_hsl(var(--primary)/0.3)] hover:shadow-[0_0_30px_hsl(var(--primary)/0.4)] transition-shadow duration-300">
+            <Sparkles className="w-5 h-5 text-primary" />
+            <span className="text-sm font-semibold text-primary">
               AI-Powered Workflow Automation
             </span>
           </div>
