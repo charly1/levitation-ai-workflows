@@ -1,40 +1,15 @@
-import { Linkedin, Twitter, Mail } from "lucide-react";
 import logo from "@/assets/logo.svg";
 
 const Footer = () => {
   return (
     <footer className="bg-card border-t border-border py-12">
       <div className="container mx-auto px-4">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* Brand */}
-          <div className="md:col-span-2">
-            <div className="flex items-center gap-2 mb-4">
+          <div>
+            <div className="flex items-center gap-2">
               <img src={logo} alt="Leviation.ai" className="h-8 w-auto" />
               <span className="text-xl font-bold text-foreground">Leviation.ai</span>
-            </div>
-            <p className="text-muted-foreground max-w-sm mb-6">
-              We design and build AI-powered n8n workflows that transform business
-              operations and drive efficiency.
-            </p>
-            <div className="flex items-center gap-4">
-              <a
-                href="#"
-                className="w-10 h-10 rounded-full bg-background border border-border flex items-center justify-center hover:border-primary transition-colors duration-200"
-              >
-                <Linkedin className="w-5 h-5 text-muted-foreground" />
-              </a>
-              <a
-                href="#"
-                className="w-10 h-10 rounded-full bg-background border border-border flex items-center justify-center hover:border-primary transition-colors duration-200"
-              >
-                <Twitter className="w-5 h-5 text-muted-foreground" />
-              </a>
-              <a
-                href="#"
-                className="w-10 h-10 rounded-full bg-background border border-border flex items-center justify-center hover:border-primary transition-colors duration-200"
-              >
-                <Mail className="w-5 h-5 text-muted-foreground" />
-              </a>
             </div>
           </div>
 
