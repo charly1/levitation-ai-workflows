@@ -15,18 +15,18 @@ const useCases = [
   },
   {
     icon: BookOpen,
-    title: "Instant Knowledge Base",
-    description: "Turn your company documents into a smart assistant. Employees get instant answers from manuals, policies, and guides without searching.",
-  },
-  {
-    icon: FileText,
-    title: "Invoice & Document Processing",
-    description: "Extract data from invoices, contracts, and forms automatically. No more manual data entry—just upload and let AI do the work.",
+    title: "Smart Document & Knowledge Base",
+    description: "Turn documents, invoices, and contracts into a smart assistant. Employees get instant answers while data is extracted and processed automatically.",
   },
   {
     icon: Users,
     title: "Lead Qualification",
     description: "Score and qualify incoming leads automatically. Your sales team only talks to prospects who are ready to buy.",
+  },
+  {
+    icon: FileText,
+    title: "Onboarding Automation",
+    description: "Streamline new employee and client onboarding. Automate paperwork, training schedules, and welcome sequences—so everyone starts off right.",
   },
   {
     icon: Calendar,
