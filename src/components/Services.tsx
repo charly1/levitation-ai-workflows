@@ -7,37 +7,31 @@ const useCases = [
     icon: Phone,
     title: "AI Receptionist",
     description: "Never miss a call again. Our AI answers calls 24/7, schedules appointments, and answers common questions—just like a real receptionist.",
-    savings: "Save 20+ hours/week",
   },
   {
     icon: Mail,
     title: "Smart Email Management",
     description: "Automatically sort, prioritize, and route incoming emails. Important messages get flagged, spam disappears, and responses get drafted.",
-    savings: "Process 500+ emails/day",
   },
   {
     icon: BookOpen,
     title: "Instant Knowledge Base",
     description: "Turn your company documents into a smart assistant. Employees get instant answers from manuals, policies, and guides without searching.",
-    savings: "Reduce support tickets by 60%",
   },
   {
     icon: FileText,
     title: "Invoice & Document Processing",
     description: "Extract data from invoices, contracts, and forms automatically. No more manual data entry—just upload and let AI do the work.",
-    savings: "Process documents 10x faster",
   },
   {
     icon: Users,
     title: "Lead Qualification",
     description: "Score and qualify incoming leads automatically. Your sales team only talks to prospects who are ready to buy.",
-    savings: "Increase conversion by 40%",
   },
   {
     icon: Calendar,
     title: "And Much More...",
     description: "Every business is unique. We analyze your workflows and identify exactly where AI can save you time—tailored to your specific needs.",
-    savings: "Custom solutions for you",
   },
 ];
 
@@ -89,13 +83,10 @@ const Services = () => {
                 </div>
                 <CardTitle className="text-xl text-foreground">{useCase.title}</CardTitle>
               </CardHeader>
-              <CardContent className="space-y-3">
+              <CardContent>
                 <CardDescription className="text-muted-foreground text-base">
                   {useCase.description}
                 </CardDescription>
-                <div className="inline-block px-3 py-1 rounded-full bg-primary/10 text-primary text-sm font-medium">
-                  {useCase.savings}
-                </div>
               </CardContent>
             </Card>
           ))}
