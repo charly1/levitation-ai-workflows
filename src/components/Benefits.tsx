@@ -1,36 +1,21 @@
-import { Clock, DollarSign, TrendingUp, Shield, Users, Repeat } from "lucide-react";
+import { Clock, TrendingUp, Repeat } from "lucide-react";
 import { useScrollAnimation } from "@/hooks/use-scroll-animation";
 
 const benefits = [
   {
     icon: Clock,
-    title: "Save Valuable Time",
-    description: "Automate repetitive tasks and free up your team for high-value work.",
-  },
-  {
-    icon: DollarSign,
-    title: "Reduce Operational Costs",
-    description: "Cut overhead by automating manual processes and eliminating errors.",
+    title: "Save Time & Money",
+    description: "Automate repetitive tasks, reduce errors, and cut operational costs.",
   },
   {
     icon: TrendingUp,
-    title: "Scale Effortlessly",
-    description: "Workflows that grow with your business without additional headcount.",
-  },
-  {
-    icon: Shield,
-    title: "Minimize Human Error",
-    description: "Consistent, reliable execution of tasks every single time.",
-  },
-  {
-    icon: Users,
-    title: "Focus on What Matters",
-    description: "Empower your workforce to concentrate on strategic, high-impact work.",
+    title: "Scale Without Limits",
+    description: "Workflows that grow with your business—no extra headcount needed.",
   },
   {
     icon: Repeat,
     title: "24/7 Operations",
-    description: "Your workflows run around the clock, even when you're sleeping.",
+    description: "Your automation runs around the clock, even when you're not.",
   },
 ];
 
