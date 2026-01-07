@@ -35,9 +35,9 @@ const useCases = [
   },
   {
     icon: Calendar,
-    title: "Meeting Assistant",
-    description: "Automatically transcribe meetings, generate summaries, and create action items. Never forget what was discussed or decided.",
-    savings: "Save 5 hours/week per person",
+    title: "And Much More...",
+    description: "Every business is unique. We analyze your workflows and identify exactly where AI can save you time—tailored to your specific needs.",
+    savings: "Custom solutions for you",
   },
 ];
 
