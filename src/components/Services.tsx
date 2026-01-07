@@ -1,43 +1,43 @@
-import { Bot, Workflow, Zap, Brain, MessageSquare, BarChart3 } from "lucide-react";
+import { Phone, Mail, BookOpen, FileText, Users, Calendar } from "lucide-react";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { useScrollAnimation } from "@/hooks/use-scroll-animation";
 
-const services = [
+const useCases = [
   {
-    icon: Workflow,
-    title: "Custom Workflow Design",
-    description:
-      "We analyze your business processes and design tailored n8n workflows that perfectly fit your needs.",
+    icon: Phone,
+    title: "AI Receptionist",
+    description: "Never miss a call again. Our AI answers calls 24/7, schedules appointments, and answers common questions—just like a real receptionist.",
+    savings: "Save 20+ hours/week",
   },
   {
-    icon: Bot,
-    title: "AI Integration",
-    description:
-      "Seamlessly integrate ChatGPT, Claude, and other AI models into your workflows for intelligent automation.",
+    icon: Mail,
+    title: "Smart Email Management",
+    description: "Automatically sort, prioritize, and route incoming emails. Important messages get flagged, spam disappears, and responses get drafted.",
+    savings: "Process 500+ emails/day",
   },
   {
-    icon: Zap,
-    title: "Process Automation",
-    description:
-      "Automate repetitive tasks like data entry, email handling, and document processing to save hours daily.",
+    icon: BookOpen,
+    title: "Instant Knowledge Base",
+    description: "Turn your company documents into a smart assistant. Employees get instant answers from manuals, policies, and guides without searching.",
+    savings: "Reduce support tickets by 60%",
   },
   {
-    icon: Brain,
-    title: "Smart Decision Making",
-    description:
-      "Build workflows that use AI to analyze data and make intelligent decisions without human intervention.",
+    icon: FileText,
+    title: "Invoice & Document Processing",
+    description: "Extract data from invoices, contracts, and forms automatically. No more manual data entry—just upload and let AI do the work.",
+    savings: "Process documents 10x faster",
   },
   {
-    icon: MessageSquare,
-    title: "Communication Automation",
-    description:
-      "Automate customer communications, notifications, and internal messaging across all your platforms.",
+    icon: Users,
+    title: "Lead Qualification",
+    description: "Score and qualify incoming leads automatically. Your sales team only talks to prospects who are ready to buy.",
+    savings: "Increase conversion by 40%",
   },
   {
-    icon: BarChart3,
-    title: "Analytics & Reporting",
-    description:
-      "Create automated reporting workflows that gather, analyze, and visualize your business data.",
+    icon: Calendar,
+    title: "And Much More...",
+    description: "Every business is unique. We analyze your workflows and identify exactly where AI can save you time—tailored to your specific needs.",
+    savings: "Custom solutions for you",
   },
 ];
 
@@ -46,7 +46,7 @@ const Services = () => {
   const { ref: gridRef, isVisible: gridVisible } = useScrollAnimation({ threshold: 0.05 });
 
   return (
-    <section id="services" className="min-h-screen py-24 bg-card flex items-center">
+    <section id="services" className="min-h-screen py-24 bg-background flex items-center">
       <div className="container mx-auto px-4">
         {/* Section Header */}
         <div
@@ -61,8 +61,8 @@ const Services = () => {
             Our Services
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            We specialize in building intelligent automation solutions that transform how
-            your business operates.
+            Not sure how AI automation fits your business? Here are real examples of how companies 
+            are saving time and money with intelligent workflows.
           </p>
         </div>
 
@@ -71,10 +71,10 @@ const Services = () => {
           ref={gridRef}
           className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"
         >
-          {services.map((service, index) => (
+          {useCases.map((useCase, index) => (
             <Card
               key={index}
-              className={`group hover:shadow-xl transition-all duration-500 border-border hover:border-primary/30 bg-background ${
+              className={`group hover:shadow-xl transition-all duration-500 border-border hover:border-primary/30 bg-card ${
                 gridVisible
                   ? "opacity-100 translate-y-0"
                   : "opacity-0 translate-y-12"
@@ -85,14 +85,17 @@ const Services = () => {
             >
               <CardHeader>
                 <div className="w-12 h-12 rounded-lg bg-accent flex items-center justify-center mb-4 group-hover:scale-110 transition-transform duration-300">
-                  <service.icon className="w-6 h-6 text-accent-foreground" />
+                  <useCase.icon className="w-6 h-6 text-accent-foreground" />
                 </div>
-                <CardTitle className="text-xl text-foreground">{service.title}</CardTitle>
+                <CardTitle className="text-xl text-foreground">{useCase.title}</CardTitle>
               </CardHeader>
-              <CardContent>
+              <CardContent className="space-y-3">
                 <CardDescription className="text-muted-foreground text-base">
-                  {service.description}
+                  {useCase.description}
                 </CardDescription>
+                <div className="inline-block px-3 py-1 rounded-full bg-primary/10 text-primary text-sm font-medium">
+                  {useCase.savings}
+                </div>
               </CardContent>
             </Card>
           ))}
