@@ -40,17 +40,23 @@ const CTA = () => {
               <Button
                 size="xl"
                 className="bg-background text-foreground hover:bg-background/90 shadow-xl hover:shadow-2xl hover:scale-105 transition-all duration-300"
+                asChild
               >
-                <Calendar className="w-5 h-5" />
-                Schedule Free Consultation
+                <a href="#contact">
+                  <Calendar className="w-5 h-5" />
+                  Schedule Free Consultation
+                </a>
               </Button>
               <Button
                 size="xl"
                 variant="ghost"
                 className="text-primary-foreground border-2 border-primary-foreground/30 hover:bg-primary-foreground/10 hover:text-primary-foreground"
+                asChild
               >
-                Learn More
-                <ArrowRight className="w-5 h-5" />
+                <a href="#services">
+                  Learn More
+                  <ArrowRight className="w-5 h-5" />
+                </a>
               </Button>
             </div>
 

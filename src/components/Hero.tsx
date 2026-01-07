@@ -38,12 +38,14 @@ const Hero = () => {
 
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Button variant="hero" size="xl">
-              Schedule a Consultation
-              <ArrowRight className="w-5 h-5" />
+            <Button variant="hero" size="xl" asChild>
+              <a href="#contact">
+                Schedule a Consultation
+                <ArrowRight className="w-5 h-5" />
+              </a>
             </Button>
-            <Button variant="heroOutline" size="xl">
-              See Our Solutions
+            <Button variant="heroOutline" size="xl" asChild>
+              <a href="#services">See Our Solutions</a>
             </Button>
           </div>
 
