@@ -14,7 +14,7 @@ const steps = [
     step: "02",
     title: "Design",
     description:
-      "We architect custom n8n workflows tailored to your specific needs, integrating AI models and connecting all your tools seamlessly.",
+      "We architect custom n8n workflows tailored to your specific needs, integrating AI models and connecting all your tools.",
   },
   {
     icon: Rocket,
