@@ -69,8 +69,8 @@ const Footer = () => {
           <div>
             <h4 className="font-semibold text-foreground mb-4">Get in Touch</h4>
             <ul className="space-y-3">
-              <li className="text-muted-foreground">hello@leviation.ai</li>
-              <li className="text-muted-foreground">San Francisco, CA</li>
+              <li className="text-muted-foreground">info@leviation.ai</li>
+              <li className="text-muted-foreground">Bern, Switzerland</li>
             </ul>
           </div>
         </div>
