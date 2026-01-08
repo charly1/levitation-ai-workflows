@@ -5,7 +5,7 @@ import { useScrollAnimation } from "@/hooks/use-scroll-animation";
 const useCases = [
   {
     icon: Phone,
-    title: "AI Receptionist",
+    title: "Virtual Receptionist",
     description: "Never miss a call again. Our AI answers calls 24/7, schedules appointments, and answers common questions—just like a real receptionist.",
   },
   {
