@@ -39,7 +39,7 @@ const Navbar = () => {
           {/* CTA Button */}
           <div className="hidden md:block">
             <Button variant="default" size="lg" asChild>
-              <a href="#contact">Get Started</a>
+              <a href="https://formspree.io/f/xvzgennl" target="_blank" rel="noopener noreferrer">Get Started</a>
             </Button>
           </div>
 
@@ -72,7 +72,7 @@ const Navbar = () => {
                 </a>
               ))}
               <Button variant="default" size="lg" className="mt-2" asChild>
-                <a href="#contact" onClick={() => setIsOpen(false)}>Get Started</a>
+                <a href="https://formspree.io/f/xvzgennl" target="_blank" rel="noopener noreferrer" onClick={() => setIsOpen(false)}>Get Started</a>
               </Button>
             </div>
           </div>

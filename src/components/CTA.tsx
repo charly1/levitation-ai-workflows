@@ -42,7 +42,7 @@ const CTA = () => {
                 className="bg-background text-foreground hover:bg-background/90 shadow-xl hover:shadow-2xl hover:scale-105 transition-all duration-300"
                 asChild
               >
-                <a href="#contact">
+                <a href="https://formspree.io/f/xvzgennl" target="_blank" rel="noopener noreferrer">
                   <Calendar className="w-5 h-5" />
                   Schedule Free Consultation
                 </a>

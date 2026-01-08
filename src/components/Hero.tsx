@@ -39,7 +39,7 @@ const Hero = () => {
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Button variant="hero" size="xl" asChild>
-              <a href="#contact">
+              <a href="https://formspree.io/f/xvzgennl" target="_blank" rel="noopener noreferrer">
                 Schedule a Consultation
                 <ArrowRight className="w-5 h-5" />
               </a>
