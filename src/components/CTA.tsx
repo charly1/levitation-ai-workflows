@@ -1,6 +1,8 @@
 import { Button } from "@/components/ui/button";
-import { ArrowRight, Calendar } from "lucide-react";
+import { Calendar, Send } from "lucide-react";
 import { useScrollAnimation } from "@/hooks/use-scroll-animation";
+import { Input } from "@/components/ui/input";
+import { Textarea } from "@/components/ui/textarea";
 
 const CTA = () => {
   const { ref, isVisible } = useScrollAnimation({ threshold: 0.2 });
@@ -36,29 +38,42 @@ const CTA = () => {
               your operations. No commitment, just insights.
             </p>
 
-            <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
+            {/* Contact Form */}
+            <form
+              action="https://formspree.io/f/xvzgennl"
+              method="POST"
+              className="max-w-md mx-auto space-y-4 text-left"
+            >
+              <Input
+                type="text"
+                name="name"
+                placeholder="Your Name"
+                required
+                className="bg-background/95 border-0 text-foreground placeholder:text-muted-foreground"
+              />
+              <Input
+                type="email"
+                name="email"
+                placeholder="Your Email"
+                required
+                className="bg-background/95 border-0 text-foreground placeholder:text-muted-foreground"
+              />
+              <Textarea
+                name="message"
+                placeholder="Tell us about your automation needs..."
+                rows={4}
+                required
+                className="bg-background/95 border-0 text-foreground placeholder:text-muted-foreground resize-none"
+              />
               <Button
+                type="submit"
                 size="xl"
-                className="bg-background text-foreground hover:bg-background/90 shadow-xl hover:shadow-2xl hover:scale-105 transition-all duration-300"
-                asChild
+                className="w-full bg-background text-foreground hover:bg-background/90 shadow-xl hover:shadow-2xl hover:scale-105 transition-all duration-300"
               >
-                <a href="https://formspree.io/f/xvzgennl" target="_blank" rel="noopener noreferrer">
-                  <Calendar className="w-5 h-5" />
-                  Schedule Free Consultation
-                </a>
+                <Send className="w-5 h-5" />
+                Schedule Free Consultation
               </Button>
-              <Button
-                size="xl"
-                variant="ghost"
-                className="text-primary-foreground border-2 border-primary-foreground/30 hover:bg-primary-foreground/10 hover:text-primary-foreground"
-                asChild
-              >
-                <a href="#services">
-                  Learn More
-                  <ArrowRight className="w-5 h-5" />
-                </a>
-              </Button>
-            </div>
+            </form>
 
             <p className="mt-8 text-sm text-primary-foreground/70">
               ✓ No credit card required &nbsp;&nbsp; ✓ 30-minute call &nbsp;&nbsp; ✓ Custom roadmap included
