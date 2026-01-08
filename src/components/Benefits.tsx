@@ -14,7 +14,7 @@ const benefits = [
   },
   {
     icon: Repeat,
-    title: "24/7 Operations",
+    title: "Always Running",
     description: "Your automation runs around the clock, even when you're not.",
   },
 ];

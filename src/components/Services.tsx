@@ -20,8 +20,8 @@ const useCases = [
   },
   {
     icon: Users,
-    title: "Lead Qualification",
-    description: "Score and qualify incoming leads automatically. Your sales team only talks to prospects who are ready to buy.",
+    title: "Lead & Candidate Qualification",
+    description: "Score and qualify incoming leads and job applicants automatically. Your team only talks to the right people.",
   },
   {
     icon: FileText,
