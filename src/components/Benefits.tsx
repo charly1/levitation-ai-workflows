@@ -1,27 +1,29 @@
 import { Clock, TrendingUp, Repeat } from "lucide-react";
 import { useScrollAnimation } from "@/hooks/use-scroll-animation";
-
-const benefits = [
-  {
-    icon: Clock,
-    title: "Save Time & Money",
-    description: "Automate repetitive tasks, reduce errors, and cut operational costs.",
-  },
-  {
-    icon: TrendingUp,
-    title: "Scale Without Limits",
-    description: "Workflows that grow with your business—no extra headcount needed.",
-  },
-  {
-    icon: Repeat,
-    title: "Always Running",
-    description: "Your automation runs around the clock, even when you're not.",
-  },
-];
+import { useLanguage } from "@/i18n/LanguageContext";
 
 const Benefits = () => {
   const { ref: headerRef, isVisible: headerVisible } = useScrollAnimation();
   const { ref: gridRef, isVisible: gridVisible } = useScrollAnimation({ threshold: 0.05 });
+  const { t } = useLanguage();
+
+  const benefits = [
+    {
+      icon: Clock,
+      title: t.benefits.saveTime.title,
+      description: t.benefits.saveTime.description,
+    },
+    {
+      icon: TrendingUp,
+      title: t.benefits.scale.title,
+      description: t.benefits.scale.description,
+    },
+    {
+      icon: Repeat,
+      title: t.benefits.alwaysRunning.title,
+      description: t.benefits.alwaysRunning.description,
+    },
+  ];
 
   return (
     <section id="benefits" className="min-h-screen py-24 bg-card flex items-center">
@@ -36,12 +38,11 @@ const Benefits = () => {
           }`}
         >
           <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-6">
-            Why Companies Choose{" "}
-            <span className="text-primary">Leviation.ai</span>
+            {t.benefits.title}{" "}
+            <span className="text-primary">{t.benefits.titleHighlight}</span>
           </h2>
           <p className="text-lg text-muted-foreground">
-            Our AI-powered workflow automation delivers measurable results that transform
-            how businesses operate. Here's what you can expect:
+            {t.benefits.subtitle}
           </p>
         </div>
 

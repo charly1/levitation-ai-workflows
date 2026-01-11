@@ -1,43 +1,45 @@
 import { Phone, Mail, BookOpen, FileText, Users, Calendar } from "lucide-react";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { useScrollAnimation } from "@/hooks/use-scroll-animation";
-
-const useCases = [
-  {
-    icon: Phone,
-    title: "Virtual Receptionist",
-    description: "Never miss a call again. Our AI answers calls 24/7, schedules appointments, and answers common questions—just like a real receptionist.",
-  },
-  {
-    icon: Mail,
-    title: "Smart Email Management",
-    description: "Automatically sort, prioritize, and route incoming emails. Important messages get flagged, spam disappears, and responses get drafted.",
-  },
-  {
-    icon: BookOpen,
-    title: "Smart Document & Knowledge Base",
-    description: "Turn documents, invoices, and contracts into a smart assistant. Employees get instant answers while data is extracted and processed automatically.",
-  },
-  {
-    icon: Users,
-    title: "Lead & Candidate Qualification",
-    description: "Score and qualify incoming leads and job applicants automatically. Your team only talks to the right people.",
-  },
-  {
-    icon: FileText,
-    title: "Onboarding Automation",
-    description: "Streamline new employee and client onboarding. Automate paperwork, training schedules, and welcome sequences—so everyone starts off right.",
-  },
-  {
-    icon: Calendar,
-    title: "And Much More...",
-    description: "Every business is unique. We analyze your workflows and identify exactly where AI can save you time—tailored to your specific needs.",
-  },
-];
+import { useLanguage } from "@/i18n/LanguageContext";
 
 const Services = () => {
   const { ref: headerRef, isVisible: headerVisible } = useScrollAnimation();
   const { ref: gridRef, isVisible: gridVisible } = useScrollAnimation({ threshold: 0.05 });
+  const { t } = useLanguage();
+
+  const useCases = [
+    {
+      icon: Phone,
+      title: t.services.virtualReceptionist.title,
+      description: t.services.virtualReceptionist.description,
+    },
+    {
+      icon: Mail,
+      title: t.services.emailManagement.title,
+      description: t.services.emailManagement.description,
+    },
+    {
+      icon: BookOpen,
+      title: t.services.documentKnowledge.title,
+      description: t.services.documentKnowledge.description,
+    },
+    {
+      icon: Users,
+      title: t.services.leadQualification.title,
+      description: t.services.leadQualification.description,
+    },
+    {
+      icon: FileText,
+      title: t.services.onboarding.title,
+      description: t.services.onboarding.description,
+    },
+    {
+      icon: Calendar,
+      title: t.services.more.title,
+      description: t.services.more.description,
+    },
+  ];
 
   return (
     <section id="services" className="min-h-screen py-24 bg-background flex items-center">
@@ -52,11 +54,10 @@ const Services = () => {
           }`}
         >
           <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
-            Our Services
+            {t.services.title}
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Not sure how AI automation fits your business? Here are real examples of how companies 
-            are saving time and money with intelligent workflows.
+            {t.services.subtitle}
           </p>
         </div>
 
