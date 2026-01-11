@@ -1,40 +1,38 @@
 import { Search, PenTool, Rocket, HeadphonesIcon } from "lucide-react";
 import { useScrollAnimation } from "@/hooks/use-scroll-animation";
-
-const steps = [
-  {
-    icon: Search,
-    step: "01",
-    title: "Discovery",
-    description:
-      "We start by understanding your business processes, pain points, and goals. Our team analyzes where AI automation can have the biggest impact.",
-  },
-  {
-    icon: PenTool,
-    step: "02",
-    title: "Design",
-    description:
-      "We architect custom n8n workflows tailored to your specific needs, integrating AI models and connecting all your tools.",
-  },
-  {
-    icon: Rocket,
-    step: "03",
-    title: "Deploy",
-    description:
-      "We implement, test, and deploy your automated workflows with minimal disruption to your existing operations.",
-  },
-  {
-    icon: HeadphonesIcon,
-    step: "04",
-    title: "Support",
-    description:
-      "Ongoing maintenance, optimization, and support ensure your workflows continue to deliver maximum value.",
-  },
-];
+import { useLanguage } from "@/i18n/LanguageContext";
 
 const HowItWorks = () => {
   const { ref: headerRef, isVisible: headerVisible } = useScrollAnimation();
   const { ref: stepsRef, isVisible: stepsVisible } = useScrollAnimation({ threshold: 0.05 });
+  const { t } = useLanguage();
+
+  const steps = [
+    {
+      icon: Search,
+      step: "01",
+      title: t.howItWorks.discovery.title,
+      description: t.howItWorks.discovery.description,
+    },
+    {
+      icon: PenTool,
+      step: "02",
+      title: t.howItWorks.design.title,
+      description: t.howItWorks.design.description,
+    },
+    {
+      icon: Rocket,
+      step: "03",
+      title: t.howItWorks.deploy.title,
+      description: t.howItWorks.deploy.description,
+    },
+    {
+      icon: HeadphonesIcon,
+      step: "04",
+      title: t.howItWorks.support.title,
+      description: t.howItWorks.support.description,
+    },
+  ];
 
   return (
     <section id="how-it-works" className="min-h-screen py-24 bg-background flex items-center">
@@ -49,10 +47,10 @@ const HowItWorks = () => {
           }`}
         >
           <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
-            How It Works
+            {t.howItWorks.title}
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Our proven process ensures successful automation implementation every time.
+            {t.howItWorks.subtitle}
           </p>
         </div>
 
