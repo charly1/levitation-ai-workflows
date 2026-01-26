@@ -12,7 +12,7 @@ import { Language } from "@/i18n/translations";
 const languages: { code: Language; name: string; flag: string }[] = [
   { code: "en", name: "English", flag: "🇬🇧" },
   { code: "fr", name: "Français", flag: "🇫🇷" },
-  { code: "de", name: "Deutsch", flag: "🇩🇪" },
+  //{ code: "de", name: "Deutsch", flag: "🇩🇪" },
 ];
 
 const LanguageSwitcher = () => {

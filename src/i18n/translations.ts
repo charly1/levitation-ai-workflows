@@ -14,88 +14,88 @@ export const translations = {
     hero: {
       badge: "AI-Powered Workflow Automation",
       headline: "Transform Your Business with",
-      headlineHighlight: "Intelligent Workflows",
-      subheadline: "We design and build custom AI-powered n8n workflows that automate your processes, reduce costs, and unlock new levels of efficiency for your team.",
+      headlineHighlight: "Artificial Intelligence",
+      subheadline: "We automate custom processes using AI, allowing you to reduce costs while unlocking your team's efficiency potential.",
       cta: "Schedule a Consultation",
       ctaSecondary: "See Our Solutions",
     },
     // Services
     services: {
       title: "Our Services",
-      subtitle: "Not sure how AI automation fits your business? Here are real examples of how companies are saving time and money with intelligent workflows.",
+      subtitle: "Not sure how AI automation fits your business? Here are real examples of how companies are saving time and money.",
       virtualReceptionist: {
         title: "Virtual Receptionist",
-        description: "Never miss a call again. Our AI answers calls 24/7, schedules appointments, and answers common questions—just like a real receptionist.",
+        description: "Never miss a call again. Our virtual receptionist answers calls 24/7, schedules appointments, and answers common questions.",
       },
       emailManagement: {
         title: "Smart Email Management",
-        description: "Automatically sort, prioritize, and route incoming emails. Important messages get flagged, spam disappears, and responses get drafted.",
+        description: "Automatically sort, prioritize, and route incoming emails. Important messages get flagged, spam disappears, and responses are suggested.",
       },
       documentKnowledge: {
-        title: "Smart Document & Knowledge Base",
-        description: "Turn documents, invoices, and contracts into a smart assistant. Employees get instant answers while data is extracted and processed automatically.",
+        title: "Data Valorization",
+        description: "Quickly access key information in your documents, contracts, and invoices, even among large volumes of data. Relevant content is automatically identified to save time and make better decisions.",
       },
       leadQualification: {
-        title: "Lead & Candidate Qualification",
-        description: "Score and qualify incoming leads and job applicants automatically. Your team only talks to the right people.",
+        title: "Recruitment Assistant",
+        description: "Our assistant automatically analyzes and selects the most relevant profiles based on your needs, saving recruiters time while improving the quality of shortlisted candidates.",
       },
       onboarding: {
-        title: "Onboarding Automation",
-        description: "Streamline new employee and client onboarding. Automate paperwork, training schedules, and welcome sequences—so everyone starts off right.",
+        title: "New Employee Welcome and Support",
+        description: "Facilitate new employee integration through simple, centralized access to key information, while improving response quality and onboarding process fluidity.",
       },
       more: {
         title: "And Much More...",
-        description: "Every business is unique. We analyze your workflows and identify exactly where AI can save you time—tailored to your specific needs.",
+        description: "Every business is unique. We analyze your work organization and identify how AI can optimize your operations by adapting to your specific needs.",
       },
     },
     // How It Works
     howItWorks: {
       title: "How It Works",
-      subtitle: "Our proven process ensures successful automation implementation every time.",
+      subtitle: "A simple and structured approach to transform your processes.",
       discovery: {
         title: "Discovery",
-        description: "We start by understanding your business processes, pain points, and goals. Our team analyzes where AI automation can have the biggest impact.",
+        description: "We immerse ourselves in your business to understand how it works and identify repetitive or time-consuming tasks that can be simplified.",
       },
       design: {
         title: "Design",
-        description: "We architect custom n8n workflows tailored to your specific needs, integrating AI models and connecting all your tools.",
+        description: "We create a prototype based on the needs identified during the discovery phase, connecting it to the various tools you use to quickly validate the solution.",
       },
       deploy: {
         title: "Deploy",
-        description: "We implement, test, and deploy your automated workflows with minimal disruption to your existing operations.",
+        description: "After your prototype validation, we test and deploy the solution in real conditions, ensuring smooth integration with your existing operations.",
       },
       support: {
         title: "Support",
-        description: "Ongoing maintenance, optimization, and support ensure your workflows continue to deliver maximum value.",
+        description: "We provide monitoring, maintenance, and continuous improvement of the solution to keep it performant, reliable, and aligned with your evolving needs.",
       },
     },
     // Benefits
     benefits: {
-      title: "Why Companies Choose",
+      title: "Why Choose",
       titleHighlight: "Leviation.ai",
-      subtitle: "Our AI-powered workflow automation delivers measurable results that transform how businesses operate. Here's what you can expect:",
+      subtitle: "Intelligent automations that deliver concrete gains and sustainably improve the way you work.",
       saveTime: {
-        title: "Save Time & Money",
-        description: "Automate repetitive tasks, reduce errors, and cut operational costs.",
+        title: "Save Time and Money",
+        description: "Automate repetitive tasks, reduce errors, and lower operational costs.",
       },
       scale: {
         title: "Scale Without Limits",
-        description: "Workflows that grow with your business—no extra headcount needed.",
+        description: "Workflows that grow with your business, without additional hires.",
       },
       alwaysRunning: {
         title: "Always Running",
-        description: "Your automation runs around the clock, even when you're not.",
+        description: "Your automation runs 24/7, even when you're not there.",
       },
     },
     // CTA
     cta: {
-      title: "Ready to Automate Your Business?",
-      subtitle: "Book a free consultation and discover how AI-powered workflows can transform your operations. No commitment, just insights.",
+      title: "Ready to Simplify Your Processes?",
+      subtitle: "Book a free consultation to identify automation opportunities tailored to your business. No commitment, just concrete advice.",
       namePlaceholder: "Your Name",
-      emailPlaceholder: "Your Email",
-      messagePlaceholder: "Tell us about your automation needs...",
-      submit: "Schedule Free Consultation",
-      note: "✓ No credit card required    ✓ 30-minute call    ✓ Custom roadmap included",
+      emailPlaceholder: "Your Professional Email",
+      messagePlaceholder: "Briefly describe your processes or needs...",
+      submit: "Book a Free Consultation",
+      note: "✓ No commitment    ✓ 30-minute call    ✓ Personalized recommendations",
     },
     // Footer
     footer: {
@@ -232,88 +232,88 @@ export const translations = {
     hero: {
       badge: "KI-gestützte Workflow-Automatisierung",
       headline: "Transformieren Sie Ihr Unternehmen mit",
-      headlineHighlight: "intelligenten Workflows",
-      subheadline: "Wir entwerfen und bauen maßgeschneiderte KI-gestützte n8n-Workflows, die Ihre Prozesse automatisieren, Kosten senken und neue Effizienzebenen für Ihr Team erschließen.",
+      headlineHighlight: "künstlicher Intelligenz",
+      subheadline: "Wir automatisieren maßgeschneiderte Prozesse mit KI und ermöglichen es Ihnen, Kosten zu senken und das Effizienzpotenzial Ihres Teams freizusetzen.",
       cta: "Beratung vereinbaren",
       ctaSecondary: "Unsere Lösungen ansehen",
     },
     // Services
     services: {
       title: "Unsere Dienstleistungen",
-      subtitle: "Sie sind sich nicht sicher, wie KI-Automatisierung in Ihr Unternehmen passt? Hier sind echte Beispiele, wie Unternehmen mit intelligenten Workflows Zeit und Geld sparen.",
+      subtitle: "Sie sind sich nicht sicher, wie KI-Automatisierung in Ihr Unternehmen passt? Hier sind konkrete Beispiele, wie Unternehmen Zeit und Geld sparen.",
       virtualReceptionist: {
         title: "Virtueller Empfang",
-        description: "Verpassen Sie nie wieder einen Anruf. Unsere KI beantwortet Anrufe rund um die Uhr, plant Termine und beantwortet häufige Fragen—genau wie ein echter Empfang.",
+        description: "Verpassen Sie nie wieder einen Anruf. Unser virtueller Empfang beantwortet Anrufe rund um die Uhr, plant Termine und beantwortet häufige Fragen.",
       },
       emailManagement: {
         title: "Intelligentes E-Mail-Management",
-        description: "Sortieren, priorisieren und leiten Sie eingehende E-Mails automatisch weiter. Wichtige Nachrichten werden markiert, Spam verschwindet und Antworten werden entworfen.",
+        description: "Sortieren, priorisieren und leiten Sie eingehende E-Mails automatisch weiter. Wichtige Nachrichten werden markiert, Spam verschwindet und Antworten werden vorgeschlagen.",
       },
       documentKnowledge: {
-        title: "Intelligente Dokumente & Wissensbasis",
-        description: "Verwandeln Sie Dokumente, Rechnungen und Verträge in einen intelligenten Assistenten. Mitarbeiter erhalten sofortige Antworten, während Daten automatisch extrahiert und verarbeitet werden.",
+        title: "Datenverwertung",
+        description: "Greifen Sie schnell auf wichtige Informationen in Ihren Dokumenten, Verträgen und Rechnungen zu, auch bei großen Datenmengen. Relevante Inhalte werden automatisch identifiziert, um Zeit zu sparen und bessere Entscheidungen zu treffen.",
       },
       leadQualification: {
-        title: "Lead- und Bewerber-Qualifizierung",
-        description: "Bewerten und qualifizieren Sie eingehende Leads und Bewerber automatisch. Ihr Team spricht nur mit den richtigen Personen.",
+        title: "Recruiting-Assistent",
+        description: "Unser Assistent analysiert und wählt automatisch die relevantesten Profile basierend auf Ihren Anforderungen aus, spart Recruitern Zeit und verbessert die Qualität der ausgewählten Kandidaten.",
       },
       onboarding: {
-        title: "Onboarding-Automatisierung",
-        description: "Optimieren Sie das Onboarding neuer Mitarbeiter und Kunden. Automatisieren Sie Papierkram, Schulungspläne und Willkommenssequenzen—für einen erfolgreichen Start.",
+        title: "Willkommen und Unterstützung neuer Mitarbeiter",
+        description: "Erleichtern Sie die Integration neuer Mitarbeiter durch einfachen, zentralisierten Zugang zu wichtigen Informationen und verbessern Sie gleichzeitig die Antwortqualität und den Onboarding-Prozess.",
       },
       more: {
         title: "Und vieles mehr...",
-        description: "Jedes Unternehmen ist einzigartig. Wir analysieren Ihre Workflows und identifizieren genau, wo KI Ihnen Zeit sparen kann—maßgeschneidert auf Ihre Bedürfnisse.",
+        description: "Jedes Unternehmen ist einzigartig. Wir analysieren Ihre Arbeitsorganisation und identifizieren, wie KI Ihre Abläufe optimieren kann, angepasst an Ihre spezifischen Bedürfnisse.",
       },
     },
     // How It Works
     howItWorks: {
       title: "So funktioniert's",
-      subtitle: "Unser bewährter Prozess garantiert jedes Mal eine erfolgreiche Automatisierungsimplementierung.",
+      subtitle: "Ein einfacher und strukturierter Ansatz zur Transformation Ihrer Prozesse.",
       discovery: {
-        title: "Analyse",
-        description: "Wir beginnen damit, Ihre Geschäftsprozesse, Schmerzpunkte und Ziele zu verstehen. Unser Team analysiert, wo KI-Automatisierung den größten Einfluss haben kann.",
+        title: "Entdeckung",
+        description: "Wir tauchen in Ihr Unternehmen ein, um zu verstehen, wie es funktioniert, und identifizieren repetitive oder zeitaufwändige Aufgaben, die vereinfacht werden können.",
       },
       design: {
         title: "Entwurf",
-        description: "Wir entwerfen maßgeschneiderte n8n-Workflows für Ihre spezifischen Anforderungen, integrieren KI-Modelle und verbinden alle Ihre Tools.",
+        description: "Wir erstellen einen Prototyp basierend auf den in der Entdeckungsphase identifizierten Anforderungen und verbinden ihn mit den verschiedenen Tools, die Sie nutzen, um die Lösung schnell zu validieren.",
       },
       deploy: {
         title: "Bereitstellung",
-        description: "Wir implementieren, testen und stellen Ihre automatisierten Workflows mit minimaler Unterbrechung Ihrer bestehenden Abläufe bereit.",
+        description: "Nach Ihrer Prototyp-Validierung testen und implementieren wir die Lösung unter realen Bedingungen und gewährleisten eine reibungslose Integration in Ihre bestehenden Abläufe.",
       },
       support: {
         title: "Support",
-        description: "Laufende Wartung, Optimierung und Support stellen sicher, dass Ihre Workflows weiterhin maximalen Wert liefern.",
+        description: "Wir bieten Überwachung, Wartung und kontinuierliche Verbesserung der Lösung, um sie leistungsfähig, zuverlässig und an Ihre sich entwickelnden Bedürfnisse angepasst zu halten.",
       },
     },
     // Benefits
     benefits: {
-      title: "Warum Unternehmen",
+      title: "Warum",
       titleHighlight: "Leviation.ai wählen",
-      subtitle: "Unsere KI-gestützte Workflow-Automatisierung liefert messbare Ergebnisse, die die Arbeitsweise von Unternehmen transformieren. Das können Sie erwarten:",
+      subtitle: "Intelligente Automatisierungen, die konkrete Gewinne liefern und Ihre Arbeitsweise nachhaltig verbessern.",
       saveTime: {
         title: "Zeit und Geld sparen",
         description: "Automatisieren Sie wiederkehrende Aufgaben, reduzieren Sie Fehler und senken Sie Betriebskosten.",
       },
       scale: {
         title: "Grenzenlos skalieren",
-        description: "Workflows, die mit Ihrem Unternehmen wachsen—ohne zusätzliche Mitarbeiter.",
+        description: "Workflows, die mit Ihrem Unternehmen wachsen, ohne zusätzliche Einstellungen.",
       },
       alwaysRunning: {
         title: "Immer aktiv",
-        description: "Ihre Automatisierung läuft rund um die Uhr, auch wenn Sie es nicht tun.",
+        description: "Ihre Automatisierung läuft rund um die Uhr, auch wenn Sie nicht da sind.",
       },
     },
     // CTA
     cta: {
-      title: "Bereit, Ihr Unternehmen zu automatisieren?",
-      subtitle: "Buchen Sie eine kostenlose Beratung und entdecken Sie, wie KI-gestützte Workflows Ihre Abläufe transformieren können. Keine Verpflichtung, nur Einblicke.",
+      title: "Bereit, Ihre Prozesse zu vereinfachen?",
+      subtitle: "Buchen Sie ein kostenloses Gespräch, um Automatisierungsmöglichkeiten für Ihr Unternehmen zu identifizieren. Keine Verpflichtung, nur konkrete Ratschläge.",
       namePlaceholder: "Ihr Name",
-      emailPlaceholder: "Ihre E-Mail",
-      messagePlaceholder: "Erzählen Sie uns von Ihren Automatisierungsbedürfnissen...",
-      submit: "Kostenlose Beratung vereinbaren",
-      note: "✓ Keine Kreditkarte erforderlich    ✓ 30-Minuten-Gespräch    ✓ Individueller Fahrplan inklusive",
+      emailPlaceholder: "Ihre geschäftliche E-Mail",
+      messagePlaceholder: "Beschreiben Sie kurz Ihre Prozesse oder Anforderungen...",
+      submit: "Kostenloses Gespräch buchen",
+      note: "✓ Keine Verpflichtung    ✓ 30-Minuten-Gespräch    ✓ Personalisierte Empfehlungen",
     },
     // Footer
     footer: {
