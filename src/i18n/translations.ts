@@ -122,74 +122,74 @@ export const translations = {
     // Hero
     hero: {
       badge: "Automatisation de flux propulsée par l'IA",
-      headline: "Transformez votre entreprise avec des",
-      headlineHighlight: "flux intelligents",
-      subheadline: "Nous concevons et construisons des flux n8n personnalisés alimentés par l'IA qui automatisent vos processus, réduisent les coûts et libèrent de nouveaux niveaux d'efficacité pour votre équipe.",
+      headline: "Transformez votre entreprise à l’aide de",
+      headlineHighlight: "l’intelligence artificielle",
+      subheadline: "Nous automatisons des processus personnalisés grâce à l’IA, vous permettant de réduire vos coûts tout en libérant le potentiel d’efficacité de votre équipe.",
       cta: "Planifier une consultation",
       ctaSecondary: "Voir nos solutions",
     },
     // Services
     services: {
       title: "Nos Services",
-      subtitle: "Vous ne savez pas comment l'automatisation IA s'intègre à votre entreprise ? Voici des exemples concrets de la façon dont les entreprises économisent du temps et de l'argent avec des flux intelligents.",
+      subtitle: "Vous ne savez pas comment l’automatisation par l’IA peut s’intégrer à votre entreprise? Voici des exemples concrets de la manière dont les entreprises économisent du temps et de l’argent.",
       virtualReceptionist: {
         title: "Réceptionniste virtuel",
-        description: "Ne manquez plus jamais un appel. Notre IA répond aux appels 24h/24, planifie les rendez-vous et répond aux questions courantes—comme une vraie réceptionniste.",
+        description: "Ne manquez plus jamais un appel. Notre réceptioniste virtuel répond aux appels 24h/24, planifie les rendez-vous et répond aux questions courantes.",
       },
       emailManagement: {
         title: "Gestion intelligente des emails",
-        description: "Triez, priorisez et routez automatiquement les emails entrants. Les messages importants sont signalés, le spam disparaît et les réponses sont rédigées.",
+        description: "Triez, priorisez et redirigez automatiquement les emails entrants. Les messages importants sont signalés, le spam disparaît et des réponses sont suggérées.",
       },
       documentKnowledge: {
-        title: "Documents et base de connaissances intelligents",
-        description: "Transformez documents, factures et contrats en assistant intelligent. Les employés obtiennent des réponses instantanées tandis que les données sont extraites et traitées automatiquement.",
+        title: "Valorisation des données",
+        description: "Accédez rapidement aux informations clés dans vos documents, contrats et factures, même parmi de grands volumes de données. Les contenus pertinents sont automatiquement identifiés pour gagner du temps et mieux décider.",
       },
       leadQualification: {
-        title: "Qualification des leads et candidats",
-        description: "Notez et qualifiez automatiquement les leads entrants et les candidats. Votre équipe ne parle qu'aux bonnes personnes.",
+        title: "Assistant au recrutement",
+        description: "Notre assistant analyse et sélectionne automatiquement les profils les plus pertinents en fonction de vos besoins, en faisant gagner du temps aux recruteurs tout en améliorant la qualité des candidatures retenues.",
       },
       onboarding: {
-        title: "Automatisation de l'intégration",
-        description: "Simplifiez l'intégration des nouveaux employés et clients. Automatisez la paperasse, les calendriers de formation et les séquences d'accueil—pour un démarrage réussi.",
+        title: "Accueil et assistance des nouveaux employés",
+        description: "Facilitez l’intégration des nouveaux employés grâce à un accès simple et centralisé aux informations clés, tout en améliorant la qualité des réponses et la fluidité du processus d’onboarding.",
       },
       more: {
         title: "Et bien plus encore...",
-        description: "Chaque entreprise est unique. Nous analysons vos flux de travail et identifions exactement où l'IA peut vous faire gagner du temps—adapté à vos besoins spécifiques.",
+        description: "Chaque entreprise est unique. Nous analysons votre organisation du travail et identifions comment l’IA peut optimiser votre activité en s’adaptant à vos besoins spécifiques.",
       },
     },
     // How It Works
     howItWorks: {
       title: "Comment ça marche",
-      subtitle: "Notre processus éprouvé garantit une mise en œuvre réussie de l'automatisation à chaque fois.",
+      subtitle: "Une approche simple et structurée pour transformer vos processus.",
       discovery: {
         title: "Découverte",
-        description: "Nous commençons par comprendre vos processus métier, vos points de douleur et vos objectifs. Notre équipe analyse où l'automatisation IA peut avoir le plus grand impact.",
+        description: "Nous nous immergeons dans votre activité afin de comprendre son fonctionnement et d’identifier les tâches répétitives ou chronophages qui peuvent être simplifiées.",
       },
       design: {
         title: "Conception",
-        description: "Nous concevons des flux n8n personnalisés adaptés à vos besoins spécifiques, intégrant des modèles d'IA et connectant tous vos outils.",
+        description: "Nous réalisons un prototype basé sur les besoins identifiés lors de la phase de découverte, en le connectant aux différents outils que vous utilisez afin de valider rapidement la solution.",
       },
       deploy: {
         title: "Déploiement",
-        description: "Nous implémentons, testons et déployons vos flux automatisés avec un minimum de perturbation pour vos opérations existantes.",
+        description: "Après votre validation du prototype, nous testons et déployons la solution en conditions réelles, en veillant à une intégration fluide avec vos opérations existantes.",
       },
       support: {
         title: "Support",
-        description: "Une maintenance continue, une optimisation et un support garantissent que vos flux continuent à offrir une valeur maximale.",
+        description: "Nous assurons le suivi, la maintenance et l’amélioration continue de la solution afin qu’elle reste performante, fiable et alignée avec l’évolution de vos besoins.",
       },
     },
     // Benefits
     benefits: {
-      title: "Pourquoi les entreprises choisissent",
+      title: "Pourquoi choisir",
       titleHighlight: "Leviation.ai",
-      subtitle: "Notre automatisation de flux alimentée par l'IA offre des résultats mesurables qui transforment le fonctionnement des entreprises. Voici ce que vous pouvez attendre :",
+      subtitle: "Des automatisations intelligentes qui apportent des gains concrets et améliorent durablement votre manière de travailler.",
       saveTime: {
         title: "Gagnez du temps et de l'argent",
         description: "Automatisez les tâches répétitives, réduisez les erreurs et diminuez les coûts opérationnels.",
       },
       scale: {
         title: "Évoluez sans limites",
-        description: "Des flux qui grandissent avec votre entreprise—sans embauches supplémentaires.",
+        description: "Des flux qui grandissent avec votre entreprise, sans embauches supplémentaires.",
       },
       alwaysRunning: {
         title: "Toujours en marche",
@@ -198,13 +198,13 @@ export const translations = {
     },
     // CTA
     cta: {
-      title: "Prêt à automatiser votre entreprise ?",
-      subtitle: "Réservez une consultation gratuite et découvrez comment les flux alimentés par l'IA peuvent transformer vos opérations. Sans engagement, que des conseils.",
+      title: "Prêt à simplifier vos processus ?",
+      subtitle: "Réservez un échange gratuit pour identifier des opportunités d’automatisation adaptées à votre entreprise. Sans engagement, uniquement des conseils concrets.",
       namePlaceholder: "Votre nom",
-      emailPlaceholder: "Votre email",
-      messagePlaceholder: "Parlez-nous de vos besoins en automatisation...",
-      submit: "Planifier une consultation gratuite",
-      note: "✓ Pas de carte de crédit requise    ✓ Appel de 30 minutes    ✓ Feuille de route personnalisée incluse",
+      emailPlaceholder: "Votre email professionnel",
+      messagePlaceholder: "Décrivez brièvement vos processus ou vos besoins...",
+      submit: "Réserver un échange gratuit",
+      note: "✓ Aucun engagement ✓ Appel de 30 minutes ✓ Recommandations personnalisées",
     },
     // Footer
     footer: {
